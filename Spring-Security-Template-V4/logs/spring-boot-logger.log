@@ -5075,3 +5075,181 @@ io.jsonwebtoken.ExpiredJwtException: JWT expired at 2024-08-11T15:40:42Z. Curren
 2024-08-11 21:13:51,051 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /product/getall
 2024-08-11 21:13:51,051 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
 2024-08-11 21:13:51,051 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /product/getall
+2024-08-11 21:14:34,778 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/auth/getall
+2024-08-11 21:14:34,778 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/auth/getall
+2024-08-11 21:14:34,794 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/auth/getall
+2024-08-11 21:14:34,805 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/auth/getall
+2024-08-11 21:14:34,819 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/auth/getall
+2024-08-11 21:14:34,831 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/auth/getall
+2024-08-11 21:14:35,893 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /product/getall
+2024-08-11 21:14:35,895 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:14:35,895 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /product/getall
+2024-08-11 21:14:35,953 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /product/getall
+2024-08-11 21:14:35,956 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:14:35,956 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /product/getall
+2024-08-11 21:14:36,839 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /order/getall
+2024-08-11 21:14:36,840 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /order/getall
+2024-08-11 21:14:36,857 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /order/getall
+2024-08-11 21:14:36,873 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /order/getall
+2024-08-11 21:14:36,917 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /order/getall
+2024-08-11 21:14:36,928 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /order/getall
+2024-08-11 21:22:37,570 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=4m57s635ms37µs200ns).
+2024-08-11 21:24:57,028 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-11 21:24:57,028 INFO o.a.j.l.DirectJDKLog [Thread-26] Stopping ProtocolHandler ["http-nio-8080"]
+2024-08-11 21:24:57,375 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-26] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 21:24:57,375 INFO c.z.h.HikariDataSource [Thread-26] HikariPool-7 - Shutdown initiated...
+2024-08-11 21:24:57,375 INFO c.z.h.HikariDataSource [Thread-26] HikariPool-7 - Shutdown completed.
+2024-08-11 21:24:57,567 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 2012 (C:\Users\sonal\Desktop\ApexgrocerSupermarket\Apexgrocer-Supermarket\Spring-Security-Template-V4\target\classes started by sonali in C:\Users\sonal\Desktop\ApexgrocerSupermarket\Apexgrocer-Supermarket\Spring-Security-Template-V4)
+2024-08-11 21:24:57,567 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-11 21:24:57,913 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11 21:24:57,933 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2024-08-11 21:24:58,077 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-11 21:24:58,091 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-11 21:24:58,092 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-11 21:24:58,093 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11 21:24:58,136 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-11 21:24:58,137 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 559 ms
+2024-08-11 21:24:58,278 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11 21:24:58,279 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-11 21:24:58,294 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11 21:24:58,294 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2024-08-11 21:24:58,346 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24b2ec4
+2024-08-11 21:24:58,346 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2024-08-11 21:24:58,346 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11 21:24:58,458 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11 21:24:58,541 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 21:24:58,745 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-11 21:24:59,240 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11 21:24:59,374 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-11 21:24:59,770 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-11 21:24:59,822 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-11 21:25:00,121 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-11 21:25:00,214 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 2.706 seconds (process running for 17070.062)
+2024-08-11 21:25:00,224 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-08-11 21:25:01,407 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-11 21:25:01,412 INFO o.a.j.l.DirectJDKLog [Thread-30] Stopping ProtocolHandler ["http-nio-8080"]
+2024-08-11 21:25:01,565 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-30] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 21:25:01,572 INFO c.z.h.HikariDataSource [Thread-30] HikariPool-8 - Shutdown initiated...
+2024-08-11 21:25:01,574 INFO c.z.h.HikariDataSource [Thread-30] HikariPool-8 - Shutdown completed.
+2024-08-11 21:25:01,666 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 2012 (C:\Users\sonal\Desktop\ApexgrocerSupermarket\Apexgrocer-Supermarket\Spring-Security-Template-V4\target\classes started by sonali in C:\Users\sonal\Desktop\ApexgrocerSupermarket\Apexgrocer-Supermarket\Spring-Security-Template-V4)
+2024-08-11 21:25:01,666 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-11 21:25:01,968 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11 21:25:02,055 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22 ms. Found 4 JPA repository interfaces.
+2024-08-11 21:25:02,275 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-11 21:25:02,275 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-11 21:25:02,275 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-11 21:25:02,275 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11 21:25:02,291 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-11 21:25:02,291 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 625 ms
+2024-08-11 21:25:02,348 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11 21:25:02,354 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-11 21:25:02,354 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11 21:25:02,369 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2024-08-11 21:25:02,385 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9147667
+2024-08-11 21:25:02,385 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2024-08-11 21:25:02,385 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11 21:25:02,480 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11 21:25:02,535 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 21:25:02,606 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-11 21:25:02,640 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11 21:25:02,715 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-11 21:25:02,788 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-11 21:25:02,795 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-11 21:25:02,797 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-11 21:25:02,804 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 1.166 seconds (process running for 17072.648)
+2024-08-11 21:25:02,804 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-08-11 21:42:05,461 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11 21:42:05,468 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2024-08-11 21:42:05,471 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 3 ms
+2024-08-11 21:42:05,473 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /api/auth/register
+2024-08-11 21:42:05,477 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/auth/register
+2024-08-11 21:42:05,478 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:42:05,482 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/auth/register
+2024-08-11 21:42:24,487 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/auth/login
+2024-08-11 21:42:24,493 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /api/auth/login
+2024-08-11 21:42:24,495 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:42:24,496 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured POST /api/auth/login
+2024-08-11 21:42:24,661 DEBUG o.s.s.a.d.DaoAuthenticationProvider [http-nio-8080-exec-5] Failed to authenticate since password does not match stored value
+2024-08-11 21:42:24,669 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-5] Pre-authenticated entry point called. Rejecting access
+2024-08-11 21:42:24,671 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /error
+2024-08-11 21:42:24,671 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:42:24,674 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-5] Pre-authenticated entry point called. Rejecting access
+2024-08-11 21:42:31,539 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/auth/login
+2024-08-11 21:42:31,546 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /api/auth/login
+2024-08-11 21:42:31,548 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:42:31,549 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /api/auth/login
+2024-08-11 21:42:31,619 DEBUG o.s.s.a.d.DaoAuthenticationProvider [http-nio-8080-exec-6] Failed to authenticate since password does not match stored value
+2024-08-11 21:42:31,619 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-6] Pre-authenticated entry point called. Rejecting access
+2024-08-11 21:42:31,619 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /error
+2024-08-11 21:42:31,619 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:42:31,619 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-6] Pre-authenticated entry point called. Rejecting access
+2024-08-11 21:42:33,718 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /api/auth/login
+2024-08-11 21:42:33,718 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:42:33,720 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured POST /api/auth/login
+2024-08-11 21:42:33,786 DEBUG o.s.s.a.d.DaoAuthenticationProvider [http-nio-8080-exec-7] Failed to authenticate since password does not match stored value
+2024-08-11 21:42:33,786 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-7] Pre-authenticated entry point called. Rejecting access
+2024-08-11 21:42:33,795 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /error
+2024-08-11 21:42:33,796 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:42:33,796 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-7] Pre-authenticated entry point called. Rejecting access
+2024-08-11 21:42:52,731 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/auth/register
+2024-08-11 21:42:52,734 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /api/auth/register
+2024-08-11 21:42:52,735 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:42:52,735 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured POST /api/auth/register
+2024-08-11 21:43:12,137 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /api/auth/login
+2024-08-11 21:43:12,144 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/auth/login
+2024-08-11 21:43:12,147 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:43:12,147 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured POST /api/auth/login
+2024-08-11 21:43:12,233 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-3] Authenticated user
+2024-08-11 21:43:24,849 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /order/getall/21
+2024-08-11 21:43:24,850 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:43:24,852 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /order/getall/21
+2024-08-11 21:43:24,868 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /order/getall/21
+2024-08-11 21:43:24,870 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:43:24,871 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /order/getall/21
+2024-08-11 21:43:33,522 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /order/getall/21
+2024-08-11 21:43:33,524 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:43:33,524 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /order/getall/21
+2024-08-11 21:43:33,540 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/21
+2024-08-11 21:43:33,541 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:43:33,542 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/21
+2024-08-11 21:51:09,687 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-11 21:51:09,693 INFO o.a.j.l.DirectJDKLog [Thread-34] Stopping ProtocolHandler ["http-nio-8080"]
+2024-08-11 21:51:09,875 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-34] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 21:51:09,877 INFO c.z.h.HikariDataSource [Thread-34] HikariPool-9 - Shutdown initiated...
+2024-08-11 21:51:09,886 INFO c.z.h.HikariDataSource [Thread-34] HikariPool-9 - Shutdown completed.
+2024-08-11 21:51:10,071 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 2012 (C:\Users\sonal\Desktop\ApexgrocerSupermarket\Apexgrocer-Supermarket\Spring-Security-Template-V4\target\classes started by sonali in C:\Users\sonal\Desktop\ApexgrocerSupermarket\Apexgrocer-Supermarket\Spring-Security-Template-V4)
+2024-08-11 21:51:10,071 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-11 21:51:10,454 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11 21:51:10,485 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2024-08-11 21:51:10,625 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-11 21:51:10,625 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-11 21:51:10,626 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-11 21:51:10,626 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11 21:51:10,651 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-11 21:51:10,651 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 580 ms
+2024-08-11 21:51:10,692 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11 21:51:10,694 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-11 21:51:10,705 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11 21:51:10,708 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2024-08-11 21:51:10,726 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@187a436d
+2024-08-11 21:51:10,726 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2024-08-11 21:51:10,728 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11 21:51:10,901 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11 21:51:10,942 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 21:51:11,046 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-11 21:51:11,111 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11 21:51:11,225 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-11 21:51:11,330 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-11 21:51:11,344 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-11 21:51:11,352 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-11 21:51:11,352 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 1.364 seconds (process running for 18641.2)
+2024-08-11 21:51:11,361 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-08-11 21:51:25,722 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11 21:51:25,722 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2024-08-11 21:51:25,726 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+2024-08-11 21:51:25,726 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /order/getall/21
+2024-08-11 21:51:25,729 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:51:25,729 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /order/getall/21
+2024-08-11 21:51:25,737 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /order/getall/21
+2024-08-11 21:51:25,738 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 21:51:25,739 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /order/getall/21

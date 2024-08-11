@@ -8,49 +8,43 @@ const products = [
     productName: 'Chicken Breast',
     productcategory: 'Fresh, boneless chicken breast',
     productcost: 250,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/10000952_16-fresho-chicken-breast-boneless.jpg?tr=w-1920,q=80'
+    image: 'https://www.bigbasket.com/media/uploads/p/l/10001001_7-fresho-chicken-breast-boneless-antibiotic-residue-free.jpg'
   },
   {
     id: 2,
     productName: 'Mutton Curry Cut',
     productcategory: 'Tender mutton pieces.',
     productcost: 500,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/40055810_12-fresho-mutton-curry-cut.jpg?tr=w-1920,q=80'
+    image: 'https://www.bigbasket.com/media/uploads/p/l/40048912_4-fresho-mutton-curry-cut-from-whole-carcass-antibiotic-residue-free-growth-hormone-free-8-10-pcs.jpg'
   },
   {
     id: 3,
     productName: 'Prawns',
     productcategory: 'Fresh and juicy prawns.',
     productcost: 400,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/40024377_5-fresho-prawns-medium.jpg?tr=w-1920,q=80'
+    image: 'https://www.bigbasket.com/media/uploads/p/m/40186082_5-fresho-frozen-prawns-small.jpg?tr=w-1920,q=80'
   },
   {
     id: 4,
     productName: 'Fish (Rohu)',
     productcategory: 'Fresh Rohu fish.',
     productcost: 200,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/10000644_18-fresho-rohu-fish.jpg?tr=w-1920,q=80'
+    image: 'https://www.bigbasket.com/media/uploads/p/m/20003673_9-fresho-basa-fish-fillet-preservative-free.jpg?tr=w-1920,q=80'
   },
   {
     id: 5,
     productName: 'Chicken Thighs',
     productcategory: 'Juicy chicken thighs.',
     productcost: 220,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/10000954_14-fresho-chicken-thighs.jpg?tr=w-1920,q=80'
+    image: 'https://www.bigbasket.com/media/uploads/p/l/40227606_1-fresho-chicken-thigh-boneless-without-skin.jpg'
   },
+  
   {
     id: 6,
-    productName: 'Mutton Mince',
-    productcategory: 'Finely minced mutton.',
-    productcost: 550,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/40005013_7-fresho-mutton-mince-keema.jpg?tr=w-1920,q=80'
-  },
-  {
-    id: 7,
     productName: 'Eggs',
     productcategory: 'Fresh eggs, versatile .',
     productcost: 60,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/1200018_8-fresho-farm-eggs-medium.jpg?tr=w-1920,q=80'
+    image: 'https://www.bigbasket.com/media/uploads/p/m/150502_6-fresho-farm-eggs-table-tray-medium-antibiotic-residue-free.jpg?tr=w-1920,q=80'
   }
 ];
 

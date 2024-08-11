@@ -50,28 +50,28 @@ public class AuthService {
     }
 
     public String login(LoginRequest loginRequest) {
-        // Authenticate the user with username and password
+       
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
         
-        // Retrieve the user from the repository
+     
         var user = userRepository.findByUsername(loginRequest.getUsername()).orElseThrow();
         
-        // Prepare claims to include in the token
+       
         Map<String, Object> extraClaims = new HashMap<>();
-        extraClaims.put("role", user.getRole().toString()); // Add role to claims
-        extraClaims.put("userId", user.getUid()); // Add userId to claims
+        extraClaims.put("role", user.getRole().toString()); 
+        extraClaims.put("userId", user.getUid()); 
     
-        // Generate the access token with the claims and user details
+        
         var accessToken = jwtUtil.generateToken(extraClaims, user);
         
-        // Revoke all previous tokens for the user
+     
         revokeAllUserTokens(user);
         
-        // Save the new token for the user
+       
         saveUserToken(user, accessToken);
         
-        // Return the generated access token
+      
         return accessToken;
     }
     
