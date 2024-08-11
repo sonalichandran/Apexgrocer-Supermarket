@@ -5,49 +5,55 @@ import React from 'react';
 const products = [
   {
     id: 1,
-    title: 'Carrot',
-    description: 'Health--',
-    price: "Rs.20",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/10000382_10-fresho-carrot-red.jpg?tr=w-1920,q=80',
+    productName: 'Tomato',
+    productcategory: 'Fresh and juicy tomatoes.',
+    productcost: 50,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000141_27-fresho-tomato-hybrid.jpg?tr=w-1920,q=80'
   },
   {
     id: 2,
-    title: 'Tomato',
-    description: 'Freshly...',
-    price: "Rs.30",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/40312601_2-fresho-tomato-local.jpg?tr=w-1920,q=80',
+    productName: 'Potato',
+    productcategory: 'Organically grown potatoes.',
+    productcost: 40,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000159_23-fresho-potato.jpg?tr=w-1920,q=80'
   },
   {
     id: 3,
-    title: 'Ladysfinger',
-    description: 'Grown organically',
-    price: "Rs.34",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/10000142_17-fresho-ladies-finger.jpg?tr=w-1920,q=80',
+    productName: 'Carrot',
+    productcategory: 'Crunchy and sweet carrots.',
+    productcost: 60,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000125_14-fresho-carrot-organic.jpg?tr=w-1920,q=80'
   },
   {
     id: 4,
-    title: 'Ginger',
-    description: 'Underground nutrient',
-    price: "Rs.90",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/50000510_4-fresho-ginger-organically-grown.jpg?tr=w-1920,q=80',
+    productName: 'Spinach',
+    productcategory: 'Fresh and green spinach leaves.',
+    productcost: 30,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000131_27-fresho-spinach.jpg?tr=w-1920,q=80'
   },
   {
     id: 5,
-    title: 'Parwal',
-    description: '...',
-    price: "Rs.122",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/10000365_12-fresho-parwal.jpg?tr=w-1920,q=80',
+    productName: 'Cabbage',
+    productcategory: 'Fresh and crisp cabbage.',
+    productcost: 35,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000071_23-fresho-cabbage.jpg?tr=w-1920,q=80'
   },
   {
     id: 6,
-    title: 'Garlic',
-    description: 'Organically grown',
-    price: "Rs.170",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/50000508_4-fresho-garlic-organically-grown.jpg?tr=w-1920,q=80',
+    productName: 'Broccoli',
+    productcategory: 'Freshly harvested broccoli.',
+    productcost: 80,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000067_28-fresho-broccoli.jpg?tr=w-1920,q=80'
   },
-  
-
+  {
+    id: 7,
+    productName: 'Capsicum',
+    productcategory: 'Fresh and crunchy capsicums.',
+    productcost: 70,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000138_24-fresho-capsicum-green-organic.jpg?tr=w-1920,q=80'
+  }
 ];
+
 
 const VegetableList = () => {
   return (

@@ -5,42 +5,55 @@ import React from 'react';
 const products = [
   {
     id: 1,
-    title: 'Afghani Chicken Tikka',
-    description: 'Creamy Afghani Chicken Tikka',
-    price: "Rs.250",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/40231680_3-fresho-creamy-afghani-chicken-tikka-juicy-fresh.jpg?tr=w-1920,q=80',
+    productName: 'Chicken Breast',
+    productcategory: 'Fresh, boneless chicken breast',
+    productcost: 250,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000952_16-fresho-chicken-breast-boneless.jpg?tr=w-1920,q=80'
   },
   {
     id: 2,
-    title: 'Hariyali Chicken Tikka',
-    description: 'Lush Hariyali Chicken Tikka-',
-    price: "Rs.120",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/40231663_3-fresho-lush-hariyali-chicken-tikka-juicy-fresh.jpg?tr=w-1920,q=80',
+    productName: 'Mutton Curry Cut',
+    productcategory: 'Tender mutton pieces.',
+    productcost: 500,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/40055810_12-fresho-mutton-curry-cut.jpg?tr=w-1920,q=80'
   },
   {
     id: 3,
-    title: 'Basa Fish Fillet',
-    description: 'Basa Fish Fillet - Preservative Free',
-    price: "Rs.299",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/20003673_9-fresho-basa-fish-fillet-preservative-free.jpg?tr=w-1920,q=80',
+    productName: 'Prawns',
+    productcategory: 'Fresh and juicy prawns.',
+    productcost: 400,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/40024377_5-fresho-prawns-medium.jpg?tr=w-1920,q=80'
   },
   {
     id: 4,
-    title: 'Rohu Fish',
-    description: 'Rohu Fish Curry Cut/Bengali Cut',
-    price: "Rs.250",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/20000963_3-fresho-rohu-fish-large-curry-cutbengali-cut-preservative-free.jpg?tr=w-1920,q=80',
+    productName: 'Fish (Rohu)',
+    productcategory: 'Fresh Rohu fish.',
+    productcost: 200,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000644_18-fresho-rohu-fish.jpg?tr=w-1920,q=80'
   },
   {
     id: 5,
-    title: 'Frozen Prawns',
-    description: 'Frozen Prawns - Peeled, Deveined, No Preservatives',
-    price: "Rs.200",
-    image: 'https://www.bigbasket.com/media/uploads/p/m/40262091_1-total-frozen-prawns-peeled-deveined-no-preservatives.jpg?tr=w-1920,q=80',
+    productName: 'Chicken Thighs',
+    productcategory: 'Juicy chicken thighs.',
+    productcost: 220,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/10000954_14-fresho-chicken-thighs.jpg?tr=w-1920,q=80'
+  },
+  {
+    id: 6,
+    productName: 'Mutton Mince',
+    productcategory: 'Finely minced mutton.',
+    productcost: 550,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/40005013_7-fresho-mutton-mince-keema.jpg?tr=w-1920,q=80'
+  },
+  {
+    id: 7,
+    productName: 'Eggs',
+    productcategory: 'Fresh eggs, versatile .',
+    productcost: 60,
+    image: 'https://www.bigbasket.com/media/uploads/p/m/1200018_8-fresho-farm-eggs-medium.jpg?tr=w-1920,q=80'
   }
-  
-
 ];
+
 
 const MeatList = () => {
   return (

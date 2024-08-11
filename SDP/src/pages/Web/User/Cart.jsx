@@ -101,8 +101,8 @@ const Cart = () => {
         )}
       </div>
       <div className="flex gap-4">
-        <button onClick={() => setShowModal(true)} className="bg-green-500 text-white py-2 px-4 rounded mt-4">Checkout</button>
-        <button onClick={() => localStorage.removeItem('cart')} className="bg-red-500 text-white py-2 px-4 rounded mt-4">Clear Cart</button>
+        <button onClick={() => setShowModal(true)} className="bg-slate-500 text-white py-2 px-4 rounded mt-4">Checkout</button>
+        <button onClick={() => localStorage.removeItem('cart')} className= "text-red-800 py-2 px-4 rounded mt-4">Clear Cart</button>
       </div>
 
       {showModal && (
@@ -124,8 +124,8 @@ const Cart = () => {
               className="mb-2 p-2 border rounded w-full"
             />
             <div className="flex gap-4 mt-4">
-              <button onClick={handleCheckout} className="bg-green-500 text-white py-2 px-4 rounded">Submit</button>
-              <button onClick={() => setShowModal(false)} className="bg-red-500 text-white py-2 px-4 rounded">Cancel</button>
+              <button onClick={handleCheckout} className="bg-slate-500 text-white py-2 px-4 rounded">Place Order</button>
+              <button onClick={() => setShowModal(false)} className=" text-black py-2 px-4 rounded">Cancel</button>
             </div>
           </div>
         </div>
