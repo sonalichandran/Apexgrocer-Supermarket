@@ -7,9 +7,9 @@ const products = [
     productName: 'Fresh Apple',
     productcategory: 'Crisp and delicious apples.',
     productcost: 260,
-    image: 'https://via.placeholder.com/150' // Add a sample image URL
+    image: 'https://www.bigbasket.com/media/uploads/p/m/40033824_25-fresho-apple-red-delicious-regular.jpg?tr=w-1920,q=80' 
   },
-  // Add more products if needed
+ 
 ];
 
 const FruitList = () => {

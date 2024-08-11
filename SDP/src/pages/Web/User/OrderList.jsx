@@ -57,7 +57,7 @@ const OrderList = () => {
 
             {order.product.map((product, idx) => (
               <div key={idx} className="h-32 w-4/6 border border-gray-300 shadow-lg rounded-md flex items-center p-4">
-                <img src="https://via.placeholder.com/150" className="h-20 w-20 rounded" alt={product.productName} />
+                <img src={product.image} className="h-20 w-20 rounded" alt={product.productName} />
                 <div className="flex flex-col pl-6">
                   <p className="font-medium text-gray-700">{product.productName}</p>
                   <p className="font-medium text-gray-600">Category: {product.productcategory}</p>
