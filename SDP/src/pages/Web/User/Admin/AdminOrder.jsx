@@ -33,14 +33,22 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import axios from 'axios';
+import { authService } from '@/services/auth';
 
 const AdminOrders = () => {
   const [orders, setOrders] = useState([]);
   const [error, setError] = useState(null);
 
+  const token = localStorage.getItem('token'); 
+  console.log(token);
   const fetchOrders = async () => {
+   
     try {
-      const result = await axios.get('http://localhost:8080/order/getall');
+      const result = await axios.get('http://localhost:8080/order/getall', {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
       console.log("Fetched orders:", result.data); 
       setOrders(result.data);
     } catch (error) {
@@ -55,7 +63,6 @@ const AdminOrders = () => {
 
   return (
     <div className='m-1 p-4'>
-    
       <Card className='shadow-sm shadow-primary'>
         <CardHeader className='w-full flex flex-row justify-between items-center'>
           <CardTitle>Orders</CardTitle>

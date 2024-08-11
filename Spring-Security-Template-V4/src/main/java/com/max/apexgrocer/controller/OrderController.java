@@ -36,11 +36,11 @@ public class OrderController {
         return os.addOrders(order,userId);
         
     }
-    // @GetMapping("/getall/")
-    // public List<Orders> getAll()
-    // {
-    //     return or.findAll();
-    // }
+    @GetMapping("/getall")
+    public List<Orders> getAll()
+    {
+        return or.findAll();
+    }
    
     @DeleteMapping("/deletebyId/{Id}")
     public String deletebyId(@PathVariable Long Id)

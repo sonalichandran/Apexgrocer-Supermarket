@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { authService } from '../../services/auth'
 
@@ -8,6 +8,28 @@ const Login = () => {
   const navigate=useNavigate();
   const usernameur=useRef();
   const passwordur=useRef();
+  const checkRedirect = async () => {
+    if (authService.getToken() !== null && authService.isLoggedIn()) {
+        
+        const userRole = authService.getUserRole();
+        if (userRole !== null) {
+           console.log(userRole);
+            if (userRole === "ADMIN") {
+             
+                navigate('/admin/dashboard');
+            } else if (userRole === "USER") {
+                navigate('/user/dashboard');
+            } else {
+                console.log("Something went wrong");
+            }
+        }
+    }
+};
+
+useEffect(() => {
+    checkRedirect();
+}, []);
+  
   const handlelogin=async (e)=>{
     e.preventDefault();
   const signin={
@@ -18,9 +40,11 @@ const Login = () => {
   if (res.status === 200) {
 
        authService.setToken(res.data);
-      setTimeout(() => {
-        navigate('/user/dashboard')
-         }, 5000)
+       const userRole = authService.getUserRole();
+       console.log(userRole);
+       setTimeout(() => {
+        checkRedirect();
+    }, 3000)
   }
 }
 

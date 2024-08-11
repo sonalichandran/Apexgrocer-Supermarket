@@ -25,11 +25,7 @@ const Leftbar = () => {
             link: '/admin/orders',
             icon: Package
         },
-        {
-            title: 'Vendors',
-            link: '/admin/vendors',
-            icon: BarChart
-        }
+      
     ]
     return (
         <div className='h-screen w-1/6 flex justify-center items-center flex-col shadow-sm shadow-primary pt-6'>

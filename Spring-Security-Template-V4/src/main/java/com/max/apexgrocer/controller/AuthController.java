@@ -101,6 +101,11 @@ public class AuthController {
         lu.logout(request, response, authentication);
         return new ResponseEntity<>("Logout successful", OK);
     }
+    @GetMapping("/getall")
+    public List<User> getall()
+    {
+       return  ur.findAll();
+    }
 
 
     
