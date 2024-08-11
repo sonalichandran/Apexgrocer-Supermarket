@@ -1,0 +1,774 @@
+2024-08-11 00:00:32,355 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /order/register/8
+2024-08-11 00:00:32,390 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /order/register/8
+2024-08-11 00:00:32,390 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:00:32,390 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /order/register/8
+2024-08-11 00:00:32,398 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.max.apexgrocer.model.Product` from Array value (token `JsonToken.START_ARRAY`)]
+2024-08-11 00:00:32,406 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /error
+2024-08-11 00:00:32,406 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:00:32,406 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-1] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:00:32,702 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /order/register/8
+2024-08-11 00:00:32,704 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:00:32,714 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured POST /order/register/8
+2024-08-11 00:00:32,716 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.max.apexgrocer.model.Product` from Array value (token `JsonToken.START_ARRAY`)]
+2024-08-11 00:00:32,717 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /error
+2024-08-11 00:00:32,717 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:00:32,718 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-7] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:00:37,454 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /order/register/8
+2024-08-11 00:00:37,463 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /order/register/8
+2024-08-11 00:00:37,465 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:00:37,467 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured POST /order/register/8
+2024-08-11 00:00:37,470 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.max.apexgrocer.model.Product` from Array value (token `JsonToken.START_ARRAY`)]
+2024-08-11 00:00:37,470 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /error
+2024-08-11 00:00:37,470 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:00:37,470 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-10] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:01:01,433 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /order/register/8
+2024-08-11 00:01:01,438 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /order/register/8
+2024-08-11 00:01:01,440 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:01:01,442 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /order/register/8
+2024-08-11 00:01:01,464 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.max.apexgrocer.model.Product` from Array value (token `JsonToken.START_ARRAY`)]
+2024-08-11 00:01:01,467 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /error
+2024-08-11 00:01:01,467 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:01:01,470 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-2] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:03:58,258 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /api/auth/register
+2024-08-11 00:03:58,267 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /api/auth/register
+2024-08-11 00:03:58,268 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:03:58,269 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /api/auth/register
+2024-08-11 00:04:09,061 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/auth/login
+2024-08-11 00:04:09,066 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /api/auth/login
+2024-08-11 00:04:09,067 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:04:09,068 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /api/auth/login
+2024-08-11 00:04:09,154 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-6] Authenticated user
+2024-08-11 00:04:16,120 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /order/getall/9
+2024-08-11 00:04:16,122 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:04:16,124 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /order/getall/9
+2024-08-11 00:04:16,141 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /order/getall/9
+2024-08-11 00:04:16,142 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:04:16,143 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /order/getall/9
+2024-08-11 00:04:38,001 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /order/register/9
+2024-08-11 00:04:38,008 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /order/register/9
+2024-08-11 00:04:38,227 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured POST /order/register/9
+2024-08-11 00:04:38,230 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs.260": not a valid `long` value]
+2024-08-11 00:04:38,234 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /error
+2024-08-11 00:04:38,234 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:04:38,237 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-5] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:06:36,423 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /order/register/9
+2024-08-11 00:06:36,444 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /order/register/9
+2024-08-11 00:06:36,481 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /order/register/9
+2024-08-11 00:06:36,481 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.max.apexgrocer.model.Product` from Array value (token `JsonToken.START_ARRAY`)]
+2024-08-11 00:06:36,485 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /error
+2024-08-11 00:06:36,485 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:06:36,485 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-8] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:08:38,693 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /order/register/8
+2024-08-11 00:08:38,693 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:08:38,693 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /order/register/8
+2024-08-11 00:08:38,710 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-08-11 00:08:38,711 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /error
+2024-08-11 00:08:38,711 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:08:38,715 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-10] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:08:46,647 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /order/register/9
+2024-08-11 00:08:46,654 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /order/register/9
+2024-08-11 00:08:46,696 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /order/register/9
+2024-08-11 00:08:46,696 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs.260": not a valid `long` value]
+2024-08-11 00:08:46,696 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /error
+2024-08-11 00:08:46,696 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:08:46,696 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-4] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:08:49,051 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /order/getall/9
+2024-08-11 00:08:49,052 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:08:49,052 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /order/getall/9
+2024-08-11 00:08:49,071 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/9
+2024-08-11 00:08:49,072 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:08:49,073 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/9
+2024-08-11 00:09:18,698 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /order/register/9
+2024-08-11 00:09:18,718 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /order/register/9
+2024-08-11 00:09:18,753 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /order/register/9
+2024-08-11 00:09:18,753 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs.260": not a valid `long` value]
+2024-08-11 00:09:18,753 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /error
+2024-08-11 00:09:18,758 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:09:18,758 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-6] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:09:25,112 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /order/register/9
+2024-08-11 00:09:25,126 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /order/register/9
+2024-08-11 00:09:25,180 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured POST /order/register/9
+2024-08-11 00:09:25,181 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs.260": not a valid `long` value]
+2024-08-11 00:09:25,181 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /error
+2024-08-11 00:09:25,181 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:09:25,181 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-9] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:10:05,551 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /order/register/9
+2024-08-11 00:10:05,556 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /order/register/9
+2024-08-11 00:10:05,595 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /order/register/9
+2024-08-11 00:10:05,595 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs.260": not a valid `long` value]
+2024-08-11 00:10:05,595 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /error
+2024-08-11 00:10:05,595 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:10:05,595 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-4] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:10:29,097 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /order/register/9
+2024-08-11 00:10:29,110 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /order/register/9
+2024-08-11 00:10:29,130 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured POST /order/register/9
+2024-08-11 00:10:29,134 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs.260": not a valid `long` value]
+2024-08-11 00:10:29,134 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /error
+2024-08-11 00:10:29,134 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:10:29,134 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-7] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:14:04,152 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 00:14:04,167 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-18 - Shutdown initiated...
+2024-08-11 00:14:04,185 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-18 - Shutdown completed.
+2024-08-11 00:22:55,541 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 41480 (C:\Users\sonal\Desktop\Backend--\Spring-Security-Template-V4\target\classes started by sonali in C:\Users\sonal\Desktop\Backend--\Spring-Security-Template-V4)
+2024-08-11 00:22:55,546 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-11 00:22:55,643 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11 00:22:55,644 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11 00:22:56,961 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11 00:22:57,086 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 102 ms. Found 4 JPA repository interfaces.
+2024-08-11 00:22:58,334 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-11 00:22:58,353 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-11 00:22:58,353 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-11 00:22:58,369 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11 00:22:58,485 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-11 00:22:58,485 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2839 ms
+2024-08-11 00:22:58,797 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11 00:22:58,916 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-11 00:22:58,979 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-11 00:22:59,385 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11 00:22:59,443 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-08-11 00:22:59,862 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@269b2fc0
+2024-08-11 00:22:59,864 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-08-11 00:22:59,963 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11 00:23:01,197 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11 00:23:01,310 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 00:23:01,831 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-11 00:23:02,183 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11 00:23:02,738 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-11 00:23:03,357 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-11 00:23:03,386 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-11 00:23:03,435 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-11 00:23:03,451 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 8.682 seconds (process running for 9.535)
+2024-08-11 00:24:08,049 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11 00:24:08,049 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-08-11 00:24:08,049 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-08-11 00:24:08,082 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/auth/register
+2024-08-11 00:24:08,107 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/auth/register
+2024-08-11 00:24:08,113 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:24:08,115 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/auth/register
+2024-08-11 00:24:18,719 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/auth/login
+2024-08-11 00:24:18,725 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /api/auth/login
+2024-08-11 00:24:18,726 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:24:18,726 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured POST /api/auth/login
+2024-08-11 00:24:18,901 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-5] Authenticated user
+2024-08-11 00:24:48,889 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /order/register/10
+2024-08-11 00:24:48,900 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /order/register/10
+2024-08-11 00:24:49,011 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured POST /order/register/10
+2024-08-11 00:24:56,596 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /order/getall/10
+2024-08-11 00:24:56,596 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:24:56,600 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /order/getall/10
+2024-08-11 00:24:56,663 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/10
+2024-08-11 00:24:56,664 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:24:56,664 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/10
+2024-08-11 00:25:00,806 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /order/deletebyId/11
+2024-08-11 00:25:00,823 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing DELETE /order/deletebyId/11
+2024-08-11 00:25:00,824 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:25:00,824 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured DELETE /order/deletebyId/11
+2024-08-11 00:25:51,832 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-11 00:25:51,857 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2024-08-11 00:25:51,933 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 00:25:51,940 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2024-08-11 00:25:51,956 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2024-08-11 00:25:52,205 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 41480 (C:\Users\sonal\Desktop\Backend--\Spring-Security-Template-V4\target\classes started by sonali in C:\Users\sonal\Desktop\Backend--\Spring-Security-Template-V4)
+2024-08-11 00:25:52,222 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-11 00:25:52,738 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11 00:25:52,778 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2024-08-11 00:25:53,374 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-11 00:25:53,379 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-11 00:25:53,380 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-11 00:25:53,382 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11 00:25:53,457 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-11 00:25:53,457 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1216 ms
+2024-08-11 00:25:53,557 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11 00:25:53,573 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-11 00:25:53,611 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11 00:25:53,625 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2024-08-11 00:25:53,666 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39b36a
+2024-08-11 00:25:53,667 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2024-08-11 00:25:53,671 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11 00:25:53,892 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11 00:25:53,946 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 00:25:54,262 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-11 00:25:54,372 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11 00:25:54,570 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-11 00:25:54,752 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-11 00:25:54,784 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-11 00:25:54,788 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-11 00:25:54,806 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 2.732 seconds (process running for 180.892)
+2024-08-11 00:25:54,806 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-08-11 00:31:08,941 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-2 housekeeper] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m15s112ms287µs100ns).
+2024-08-11 00:31:13,969 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11 00:31:13,971 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-08-11 00:31:13,979 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2024-08-11 00:31:14,008 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/10
+2024-08-11 00:31:14,027 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:31:14,029 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/10
+2024-08-11 00:31:14,185 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /order/getall/10
+2024-08-11 00:31:14,186 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:31:14,188 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /order/getall/10
+2024-08-11 00:31:18,125 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /order/getall/10
+2024-08-11 00:31:18,132 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:31:18,132 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /order/getall/10
+2024-08-11 00:31:18,155 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /order/getall/10
+2024-08-11 00:31:18,156 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:31:18,156 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /order/getall/10
+2024-08-11 00:32:53,323 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /order/register/10
+2024-08-11 00:32:53,342 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /order/register/10
+2024-08-11 00:32:53,659 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured POST /order/register/10
+2024-08-11 00:32:54,696 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/10
+2024-08-11 00:32:54,700 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:32:54,700 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/10
+2024-08-11 00:32:54,746 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /order/getall/10
+2024-08-11 00:32:54,748 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:32:54,751 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /order/getall/10
+2024-08-11 00:32:59,896 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /order/getall/10
+2024-08-11 00:32:59,903 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:32:59,908 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /order/getall/10
+2024-08-11 00:32:59,953 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /order/getall/10
+2024-08-11 00:32:59,957 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:32:59,957 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /order/getall/10
+2024-08-11 00:36:36,265 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /order/getall/10
+2024-08-11 00:36:36,268 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:36:36,268 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /order/getall/10
+2024-08-11 00:36:36,306 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /order/getall/10
+2024-08-11 00:36:36,309 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:36:36,311 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /order/getall/10
+2024-08-11 00:39:03,877 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/10
+2024-08-11 00:39:03,879 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:39:03,879 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/10
+2024-08-11 00:39:03,935 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /order/getall/10
+2024-08-11 00:39:03,935 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:39:03,937 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /order/getall/10
+2024-08-11 00:40:17,093 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /order/register/10
+2024-08-11 00:40:17,115 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /order/register/10
+2024-08-11 00:40:17,190 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2024-08-10T19:04:23Z. Current time: 2024-08-10T19:10:17Z, a difference of 354165 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.max.apexgrocer.config.JwtToken.extractAllClaims(JwtToken.java:40)
+	at com.max.apexgrocer.config.JwtToken.extraClaim(JwtToken.java:35)
+	at com.max.apexgrocer.config.JwtToken.extractUsername(JwtToken.java:23)
+	at com.max.apexgrocer.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-08-11 00:40:17,287 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /error
+2024-08-11 00:40:17,291 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:40:17,303 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-5] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:40:18,782 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /order/getall/10
+2024-08-11 00:40:18,782 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:40:18,782 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /order/getall/10
+2024-08-11 00:40:18,803 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /order/getall/10
+2024-08-11 00:40:18,809 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:40:18,811 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /order/getall/10
+2024-08-11 00:40:24,990 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /order/register/10
+2024-08-11 00:40:25,000 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /order/register/10
+2024-08-11 00:40:25,021 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2024-08-10T19:04:23Z. Current time: 2024-08-10T19:10:25Z, a difference of 362021 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.max.apexgrocer.config.JwtToken.extractAllClaims(JwtToken.java:40)
+	at com.max.apexgrocer.config.JwtToken.extraClaim(JwtToken.java:35)
+	at com.max.apexgrocer.config.JwtToken.extractUsername(JwtToken.java:23)
+	at com.max.apexgrocer.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-08-11 00:40:25,047 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /error
+2024-08-11 00:40:25,050 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:40:25,053 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-9] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:46:36,344 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /order/register/10
+2024-08-11 00:46:36,377 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /order/register/10
+2024-08-11 00:46:36,395 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2024-08-10T19:04:23Z. Current time: 2024-08-10T19:16:36Z, a difference of 733395 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.max.apexgrocer.config.JwtToken.extractAllClaims(JwtToken.java:40)
+	at com.max.apexgrocer.config.JwtToken.extraClaim(JwtToken.java:35)
+	at com.max.apexgrocer.config.JwtToken.extractUsername(JwtToken.java:23)
+	at com.max.apexgrocer.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-08-11 00:46:36,425 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /error
+2024-08-11 00:46:36,427 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:46:36,429 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-3] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:47:24,233 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /order/register/10
+2024-08-11 00:47:24,241 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /order/register/10
+2024-08-11 00:47:24,245 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2024-08-10T19:04:23Z. Current time: 2024-08-10T19:17:24Z, a difference of 781241 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.max.apexgrocer.config.JwtToken.extractAllClaims(JwtToken.java:40)
+	at com.max.apexgrocer.config.JwtToken.extraClaim(JwtToken.java:35)
+	at com.max.apexgrocer.config.JwtToken.extractUsername(JwtToken.java:23)
+	at com.max.apexgrocer.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-08-11 00:47:24,265 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /error
+2024-08-11 00:47:24,265 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:47:24,265 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-5] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:48:21,664 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/auth/register
+2024-08-11 00:48:21,675 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/auth/register
+2024-08-11 00:48:21,676 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:48:21,676 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /api/auth/register
+2024-08-11 00:48:32,462 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /api/auth/login
+2024-08-11 00:48:32,468 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /api/auth/login
+2024-08-11 00:48:32,470 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:48:32,471 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /api/auth/login
+2024-08-11 00:48:32,806 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-1] Authenticated user
+2024-08-11 00:48:55,448 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /order/register/11
+2024-08-11 00:48:55,457 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /order/register/11
+2024-08-11 00:48:55,506 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured POST /order/register/11
+2024-08-11 00:48:55,535 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs. 260": not a valid `long` value]
+2024-08-11 00:48:55,544 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /error
+2024-08-11 00:48:55,546 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:48:55,546 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-3] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:49:14,333 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /order/getall/11
+2024-08-11 00:49:14,344 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:49:14,344 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /order/getall/11
+2024-08-11 00:49:14,374 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /order/getall/11
+2024-08-11 00:49:14,374 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:49:14,379 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /order/getall/11
+2024-08-11 00:49:56,649 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /order/register/11
+2024-08-11 00:49:56,656 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /order/register/11
+2024-08-11 00:49:56,703 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured POST /order/register/11
+2024-08-11 00:49:56,707 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs. 260": not a valid `long` value]
+2024-08-11 00:49:56,709 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /error
+2024-08-11 00:49:56,709 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:49:56,709 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-9] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:49:57,975 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/11
+2024-08-11 00:49:57,978 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:49:57,978 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/11
+2024-08-11 00:49:58,005 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /order/getall/11
+2024-08-11 00:49:58,005 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:49:58,005 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /order/getall/11
+2024-08-11 00:50:10,713 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /order/getall/11
+2024-08-11 00:50:10,716 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:50:10,718 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /order/getall/11
+2024-08-11 00:50:10,734 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /order/getall/11
+2024-08-11 00:50:10,739 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:50:10,743 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /order/getall/11
+2024-08-11 00:50:42,123 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 42476 (C:\Users\sonal\Desktop\Backend--\Spring-Security-Template-V4\target\classes started by sonali in C:\Users\sonal\Desktop\Backend--\Spring-Security-Template-V4)
+2024-08-11 00:50:42,132 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-11 00:50:42,219 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11 00:50:42,224 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11 00:50:43,622 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11 00:50:43,754 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 114 ms. Found 4 JPA repository interfaces.
+2024-08-11 00:50:44,742 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-11 00:50:44,764 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-11 00:50:44,775 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-11 00:50:44,775 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11 00:50:44,899 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-11 00:50:44,899 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2675 ms
+2024-08-11 00:50:45,245 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11 00:50:45,455 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-11 00:50:45,512 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-11 00:50:45,926 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11 00:50:45,973 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-08-11 00:50:46,348 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c2a179
+2024-08-11 00:50:46,351 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-08-11 00:50:46,430 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11 00:50:47,639 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11 00:50:47,765 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 00:50:48,302 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-11 00:50:48,533 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11 00:50:49,080 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-11 00:50:49,623 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-11 00:50:49,689 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-11 00:50:49,780 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-11 00:50:49,801 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 8.231 seconds (process running for 8.933)
+2024-08-11 00:50:57,664 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11 00:50:57,664 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-08-11 00:50:57,674 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2024-08-11 00:50:57,707 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/11
+2024-08-11 00:50:57,740 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:50:57,747 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/11
+2024-08-11 00:50:57,976 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/11
+2024-08-11 00:50:57,983 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:50:57,983 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/11
+2024-08-11 00:51:33,576 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /api/auth/register
+2024-08-11 00:51:33,584 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /api/auth/register
+2024-08-11 00:51:33,584 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:51:33,584 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /api/auth/register
+2024-08-11 00:51:43,586 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/auth/login
+2024-08-11 00:51:43,595 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /api/auth/login
+2024-08-11 00:51:43,601 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:51:43,601 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured POST /api/auth/login
+2024-08-11 00:51:43,882 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-9] Authenticated user
+2024-08-11 00:52:20,271 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /order/register/12
+2024-08-11 00:52:20,283 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /order/register/12
+2024-08-11 00:52:20,476 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /order/register/12
+2024-08-11 00:52:20,493 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs. 260": not a valid `long` value]
+2024-08-11 00:52:20,511 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /error
+2024-08-11 00:52:20,515 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:52:20,521 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-1] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:55:40,417 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/auth/register
+2024-08-11 00:55:40,433 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /api/auth/register
+2024-08-11 00:55:40,433 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:55:40,433 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured POST /api/auth/register
+2024-08-11 00:55:50,631 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/auth/login
+2024-08-11 00:55:50,641 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/auth/login
+2024-08-11 00:55:50,641 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:55:50,641 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /api/auth/login
+2024-08-11 00:55:50,839 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Authenticated user
+2024-08-11 00:56:14,389 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /order/register/13
+2024-08-11 00:56:14,398 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /order/register/13
+2024-08-11 00:56:14,417 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /order/register/13
+2024-08-11 00:56:14,422 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "Rs. 260": not a valid `long` value]
+2024-08-11 00:56:14,422 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /error
+2024-08-11 00:56:14,422 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:56:14,422 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-2] Pre-authenticated entry point called. Rejecting access
+2024-08-11 00:56:15,689 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /order/getall/13
+2024-08-11 00:56:15,689 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:56:15,698 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /order/getall/13
+2024-08-11 00:56:15,723 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /order/getall/13
+2024-08-11 00:56:15,723 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:56:15,723 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /order/getall/13
+2024-08-11 00:59:46,685 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /api/auth/register
+2024-08-11 00:59:46,692 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /api/auth/register
+2024-08-11 00:59:46,697 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:59:46,699 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /api/auth/register
+2024-08-11 00:59:56,344 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/auth/login
+2024-08-11 00:59:56,356 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /api/auth/login
+2024-08-11 00:59:56,358 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 00:59:56,358 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured POST /api/auth/login
+2024-08-11 00:59:56,557 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-9] Authenticated user
+2024-08-11 01:00:17,146 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /order/register/14
+2024-08-11 01:00:17,154 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /order/register/14
+2024-08-11 01:00:17,186 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /order/register/14
+2024-08-11 01:00:18,414 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /order/getall/14
+2024-08-11 01:00:18,417 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 01:00:18,419 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /order/getall/14
+2024-08-11 01:00:18,460 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /order/getall/14
+2024-08-11 01:00:18,465 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 01:00:18,465 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /order/getall/14
+2024-08-11 09:47:31,492 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 33896 (C:\Users\sonal\Desktop\Order-updated\Spring-Security-Template-V4\target\classes started by sonali in C:\Users\sonal\Desktop\Order-updated\Spring-Security-Template-V4)
+2024-08-11 09:47:31,506 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-11 09:47:31,612 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11 09:47:31,614 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11 09:47:32,870 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11 09:47:33,001 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 119 ms. Found 4 JPA repository interfaces.
+2024-08-11 09:47:33,815 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-11 09:47:33,824 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-11 09:47:33,828 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-11 09:47:33,829 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11 09:47:33,919 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-11 09:47:33,921 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2304 ms
+2024-08-11 09:47:34,124 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11 09:47:34,217 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-11 09:47:34,266 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-11 09:47:34,764 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11 09:47:34,860 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-08-11 09:47:35,206 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@150e25a2
+2024-08-11 09:47:35,209 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-08-11 09:47:35,275 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11 09:47:36,373 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11 09:47:36,498 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 09:47:37,117 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-11 09:47:37,363 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11 09:47:37,798 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-11 09:47:38,223 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-11 09:47:38,259 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-11 09:47:38,303 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-11 09:47:38,318 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 7.339 seconds (process running for 7.945)
+2024-08-11 09:49:10,794 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11 09:49:10,794 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-08-11 09:49:10,811 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-08-11 09:49:10,885 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/auth/register
+2024-08-11 09:49:10,925 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/auth/register
+2024-08-11 09:49:10,939 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 09:49:10,944 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured POST /api/auth/register
+2024-08-11 09:49:23,379 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /api/auth/login
+2024-08-11 09:49:23,389 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /api/auth/login
+2024-08-11 09:49:23,389 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 09:49:23,389 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /api/auth/login
+2024-08-11 09:49:23,779 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-4] Authenticated user
+2024-08-11 09:50:07,095 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /order/register/15
+2024-08-11 09:50:07,107 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /order/register/15
+2024-08-11 09:50:07,310 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /order/register/15
+2024-08-11 09:50:08,841 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /order/getall/15
+2024-08-11 09:50:08,848 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 09:50:08,853 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /order/getall/15
+2024-08-11 09:50:08,908 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /order/getall/15
+2024-08-11 09:50:08,913 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 09:50:08,914 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /order/getall/15
+2024-08-11 10:45:57,633 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 42304 (C:\Users\sonal\Desktop\ApexgrocerSupermarket\Apexgrocer-Supermarket\Spring-Security-Template-V4\target\classes started by sonali in C:\Users\sonal\Desktop\ApexgrocerSupermarket\Apexgrocer-Supermarket\Spring-Security-Template-V4)
+2024-08-11 10:45:57,638 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-11 10:45:57,726 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11 10:45:57,728 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11 10:45:59,220 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11 10:45:59,349 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 109 ms. Found 4 JPA repository interfaces.
+2024-08-11 10:46:00,097 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-11 10:46:00,108 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-11 10:46:00,112 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-11 10:46:00,112 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11 10:46:00,191 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-11 10:46:00,194 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2462 ms
+2024-08-11 10:46:00,420 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11 10:46:00,533 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-11 10:46:00,596 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-11 10:46:01,048 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11 10:46:01,086 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-08-11 10:46:01,471 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@242bb652
+2024-08-11 10:46:01,474 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-08-11 10:46:01,544 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11 10:46:02,911 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11 10:46:03,038 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11 10:46:03,539 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-11 10:46:03,711 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11 10:46:04,176 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-11 10:46:04,676 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-11 10:46:04,764 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-11 10:46:04,799 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-11 10:46:04,814 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 7.814 seconds (process running for 8.621)
+2024-08-11 10:47:11,197 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11 10:47:11,197 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-08-11 10:47:11,197 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2024-08-11 10:47:11,261 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/auth/login
+2024-08-11 10:47:11,322 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /api/auth/login
+2024-08-11 10:47:11,331 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 10:47:11,340 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /api/auth/login
+2024-08-11 10:47:12,427 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-1] Authenticated user
+2024-08-11 10:47:20,384 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /order/getall/15
+2024-08-11 10:47:20,387 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 10:47:20,390 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /order/getall/15
+2024-08-11 10:47:20,525 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /order/getall/15
+2024-08-11 10:47:20,534 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-11 10:47:20,534 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /order/getall/15

@@ -1,0 +1,59 @@
+2024-08-07 08:57:22,219 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 28196 (C:\Users\sonal\Desktop\spring-template-final - Copy\Spring-Security-Template-V4\target\classes started by sonali in C:\Users\sonal\Desktop\spring-template-final - Copy\Spring-Security-Template-V4)
+2024-08-07 08:57:22,234 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-07 08:57:22,320 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-07 08:57:22,321 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-07 08:57:23,668 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-07 08:57:23,913 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 236 ms. Found 4 JPA repository interfaces.
+2024-08-07 08:57:24,879 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-07 08:57:24,885 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-07 08:57:24,893 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-07 08:57:24,893 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-07 08:57:24,975 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-07 08:57:24,981 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2654 ms
+2024-08-07 08:57:25,212 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-07 08:57:25,349 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-07 08:57:25,419 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-07 08:57:25,947 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-07 08:57:26,042 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-08-07 08:57:26,431 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32468c69
+2024-08-07 08:57:26,433 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-08-07 08:57:26,505 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-07 08:57:27,776 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-07 08:57:27,902 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-07 08:57:28,425 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-07 08:57:28,619 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-07 08:57:29,104 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-07 08:57:29,614 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-07 08:57:29,651 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-07 08:57:29,695 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-07 08:57:29,710 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 8.072 seconds (process running for 8.681)
+2024-08-07 08:58:07,846 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-07 08:58:07,846 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2024-08-07 08:58:07,857 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 2 ms
+2024-08-07 08:58:07,935 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/auth/register
+2024-08-07 08:58:07,970 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 08:58:07,983 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured POST /api/auth/register
+2024-08-07 08:58:50,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /api/auth/login
+2024-08-07 08:58:50,913 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 08:58:50,914 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /api/auth/login
+2024-08-07 08:58:51,249 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-4] Authenticated user
+2024-08-07 09:01:24,847 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /api/auth/login
+2024-08-07 09:01:24,850 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:01:24,850 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /api/auth/login
+2024-08-07 09:01:25,026 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-6] Authenticated user
+2024-08-07 09:02:13,800 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /order/register/6
+2024-08-07 09:02:14,036 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /order/register/6
+2024-08-07 09:20:54,183 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m57s334ms131탎900ns).
+2024-08-07 11:31:43,711 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m47s513ms584탎100ns).
+2024-08-07 13:25:24,317 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m39s689ms637탎700ns).
+2024-08-07 13:35:45,326 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m50s828ms427탎400ns).
+2024-08-07 14:03:28,979 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /api/auth/register
+2024-08-07 14:03:28,991 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 14:03:28,994 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured POST /api/auth/register
+2024-08-07 14:03:47,222 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/auth/login
+2024-08-07 14:03:47,225 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 14:03:47,225 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/auth/login
+2024-08-07 14:03:47,390 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-2] Authenticated user
+2024-08-07 14:04:22,075 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /order/register/7
+2024-08-07 14:04:22,119 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured POST /order/register/7
+2024-08-07 14:20:06,233 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s349ms237탎600ns).
