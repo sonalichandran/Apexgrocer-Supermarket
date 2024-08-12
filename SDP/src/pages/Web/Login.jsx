@@ -3,6 +3,7 @@ import axios from 'axios';
 import React, { useEffect, useRef } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { authService } from '../../services/auth'
+import toast, { Toaster } from 'react-hot-toast';
 
 const Login = () => {
   const navigate=useNavigate();
@@ -15,11 +16,13 @@ const Login = () => {
         if (userRole !== null) {
            console.log(userRole);
             if (userRole === "ADMIN") {
-             
+          
                 navigate('/admin/dashboard');
             } else if (userRole === "USER") {
+         
                 navigate('/fruits');
             } else {
+        
                 console.log("Something went wrong");
             }
         }
@@ -39,11 +42,14 @@ useEffect(() => {
   const res = await authService.SignIn(signin.username, signin.password);
   if (res.status === 200) {
 
+    toast.success("Login Successful")
        authService.setToken(res.data);
        const userRole = authService.getUserRole();
        console.log(userRole);
        setTimeout(() => {
+       
         checkRedirect();
+
     }, 3000)
   }
 }
@@ -51,6 +57,17 @@ useEffect(() => {
   return (
     <>
     <div className="flex items-center pl-80 h-screen">
+    <Toaster 
+        position="top-right" 
+        toastOptions={{
+          success: {
+            duration: 5000, 
+          },
+          error: {
+            duration: 5000, 
+          },
+        }} 
+      />
       <div className="w-full max-w-sm  p-8 rounded-lg shadow-md shadow-white border-2 border-slate-900">
         <h2 className="text-2xl font-bold  mb-6 flex items-center justify-center">Login</h2>
         <form onSubmit={handlelogin}>
@@ -94,6 +111,7 @@ useEffect(() => {
       <img src="https://img.freepik.com/free-psd/3d-illustration-supermarket_23-2150942240.jpg" className="pl-48 h-80" alt></img>
     </div>
     <div>
+    
     </div>
     </>
   );

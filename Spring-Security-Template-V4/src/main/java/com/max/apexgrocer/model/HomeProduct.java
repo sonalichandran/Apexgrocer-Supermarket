@@ -21,5 +21,6 @@ public class HomeProduct {
     private String productName;
     private String productcategory;
     private long productcost;
+    private String imagePath;
     
 }

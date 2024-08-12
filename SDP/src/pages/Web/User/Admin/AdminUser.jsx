@@ -47,7 +47,7 @@ const AdminUsers = () => {
 
     try {
       const res = await axios.post(
-        'http://localhost:8080/request/register',
+        'http://localhost:8080/api/auth/register',
         signup,
         {
           headers: {
@@ -64,6 +64,7 @@ const AdminUsers = () => {
     }
   };
   const handledelete = async (uid) => {
+    alert("user will be deleted");
     try {
       const del = await axios.delete(`http://localhost:8080/api/auth/deletebyid/${uid}`, {
         headers: {
@@ -124,7 +125,7 @@ const AdminUsers = () => {
                   <TableCell>{user.password}</TableCell>
                   <TableCell>
                     <span className="w-full h-full flex justify-center items-center gap-3">
-                      <Edit className="h-8 w-8 p-1 text-black-500 cursor-pointer hover:bg-blue-500 hover:text-background rounded-md" />
+                     
                       <TrashIcon className="h-8 w-8 p-1 text-black-500 cursor-pointer hover:bg-red-500 hover:text-background rounded-md" onClick={()=>handledelete(user.uid)} />
                     </span>
                   </TableCell>

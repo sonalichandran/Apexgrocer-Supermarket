@@ -1,13 +1,14 @@
 import React, { useRef } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import {Signup} from '../../services/api'
+import { Signup } from '../../services/api';
+import toast, { Toaster } from 'react-hot-toast';
+
 const Register = () => {
   const navigate = useNavigate();
   const usernameRef = useRef();
   const emailRef = useRef();
   const passwordRef = useRef();
   
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -17,21 +18,30 @@ const Register = () => {
       password: passwordRef.current.value
     };
 
-   const res=await Signup(signup.username,signup.email,signup.password);
-   if(res.data=="User registered successfully.")
-   {
-               setTimeout(() => {
-                navigate('/login')
-                 }, 5000)
-   }
-   else{
-    console.log("error");
-   }
-
+    const res = await Signup(signup.username, signup.email, signup.password);
+    if(res.data === "User registered successfully.") {
+      setTimeout(() => {
+        navigate('/login');
+      }, 5000);
+      toast.success("Registration Successful");
+    } else {
+      toast.error("Registration Failed");
+    }
   }
 
   return (
     <div className="flex items-center pl-80 h-screen">
+       <Toaster 
+        position="top-right" 
+        toastOptions={{
+          success: {
+            duration: 5000, 
+          },
+          error: {
+            duration: 5000, 
+          },
+        }} 
+      />
       <div className="p-8 rounded-lg shadow-sm shadow-white max-w-sm w-full border border-black">
         <h2 className="text-2xl font-bold mb-6 flex items-center justify-center">Register</h2>
         <form id="registerForm" className="space-y-4" onSubmit={handleSubmit}>
@@ -80,7 +90,10 @@ const Register = () => {
           </div>
         </form>
       </div>
+     
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotvsSVsktQNlZs4kbv-7GbHuEaSs3d058cg&s" className="pl-60 h-80" alt="Decoration" />
+
+    
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import { authService } from '@/services/auth';
 import React, { useRef, useState } from 'react';
 
 const UserDashboard = () => {
@@ -7,7 +8,7 @@ const UserDashboard = () => {
   const dobur=useRef();
   const phonenumberur=useRef();
   const emailur=useRef();
-  
+  const usernamee=authService.getUserEmail();
 
   const handleSaveChanges = () => {
     const updatedUserData = {
@@ -36,6 +37,7 @@ const UserDashboard = () => {
           <label className="w-32 text-gray-700">Username</label>
           <input
             type="text"
+            value={usernamee}
             className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
             ref={usernameur}
          

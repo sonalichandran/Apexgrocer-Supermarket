@@ -1,5 +1,6 @@
 import { authService } from '@/services/auth';
 import React from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 
 const ProductCard = ({ product }) => {
@@ -21,7 +22,11 @@ const ProductCard = ({ product }) => {
     localStorage.setItem('cart', JSON.stringify(cart));
   }
   else{
-    navigate('/login');
+    toast.error("Login to add items to Cart");
+    setTimeout(() => {
+      navigate('/login');
+    }, 5000);
+   
   }
   };
 
@@ -43,6 +48,17 @@ const ProductCard = ({ product }) => {
           Add to Cart
         </button>
       </div>
+      <Toaster 
+        position="top-right" 
+        toastOptions={{
+          success: {
+            duration: 4000, 
+          },
+          error: {
+            duration: 4000, 
+          },
+        }} 
+      />
     </div>
   );
 };
