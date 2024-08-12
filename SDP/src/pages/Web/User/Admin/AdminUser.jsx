@@ -33,7 +33,7 @@ const AdminUsers = () => {
   const emailref = useRef();
   const passwordref = useRef();
 
-  // Get the JWT token from localStorage (or wherever you store it)
+  
   const token = localStorage.getItem('token');
 
   const handleSubmit = async (e) => {
@@ -56,9 +56,9 @@ const AdminUsers = () => {
         }
       );
       console.log('User registered:', res.data);
-      // Optionally, close the sheet and refresh the user list after successful registration
+   
       setOpen(false);
-      fetchUsers(); // Refresh the user list
+      fetchUsers(); 
     } catch (error) {
       console.error('Error registering user:', error);
     }

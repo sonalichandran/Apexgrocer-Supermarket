@@ -1,18 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import axios from 'axios'
+import { authService } from '@/services/auth';
 
 
-const getUserIdFromToken = () => {
-  const token = localStorage.getItem('token'); 
-  if (!token) return null;
-  
-  const decodedToken = JSON.parse(atob(token.split('.')[1])); 
-  return decodedToken.userId; 
-};
+
 
 const OrderList = () => {
   const [orders, setOrders] = useState([]);
-  const userId = getUserIdFromToken(); 
+  const userId = authService.getUserId(); 
 
   useEffect(() => {
     if (userId) {

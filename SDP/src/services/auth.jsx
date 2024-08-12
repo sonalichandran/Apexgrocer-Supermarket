@@ -29,15 +29,15 @@ const getUserRole = () => {
     }
     return null;
 }
-// const getUserId=()=>{
-//     const token=getToken();
-//     if(token)
-//     {
-//         const payLoad=jwtDecode(token);
-//         return payLoad?.userId;
+const getUserId=()=>{
+    const token=getToken();
+    if(token)
+    {
+        const payLoad=jwtDecode(token);
+        return payLoad?.userId;
 
-//     }
-// }
+    }
+}
 
 const isLoggedIn = () => {
     const token = getToken();
@@ -53,4 +53,4 @@ const SignIn = (username, password) => axiosInstance.post("/auth/login", { usern
 const SignOut = () => localStorage.clear()
 
 
-export const authService = { getToken, setToken, getUserEmail, getUserRole, isLoggedIn, SignIn, SignOut };
+export const authService = { getToken, setToken, getUserEmail, getUserRole, isLoggedIn, SignIn, SignOut,getUserId };
