@@ -31,7 +31,7 @@ const AdminProduct = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get("http://localhost:8080/product/getall");
+        const res = await axios.get("http://localhost:8080/homeproduct/getallproduct");
         setProducts(res.data);
       } catch (error) {
         console.error("Error fetching products:", error);
@@ -49,7 +49,7 @@ const AdminProduct = () => {
       productcost: priceref.current.value,
     };
     try {
-      const res = await axios.post("http://localhost:8080/product/register", newProduct);
+      const res = await axios.post("http://localhost:8080/homeproduct/addproduct", newProduct);
       setProducts([...products, res.data]);
       setOpen(false);
     } catch (error) {

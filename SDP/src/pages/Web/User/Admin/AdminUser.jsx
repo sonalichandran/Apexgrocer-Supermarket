@@ -63,6 +63,20 @@ const AdminUsers = () => {
       console.error('Error registering user:', error);
     }
   };
+  const handledelete = async (uid) => {
+    try {
+      const del = await axios.delete(`http://localhost:8080/api/auth/deletebyid/${uid}`, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+  
+      console.log('User deleted:', del.data);
+      fetchUsers(); 
+    } catch (error) {
+      console.error('Error deleting user:', error);
+    }
+  };
 
   const fetchUsers = async () => {
     try {
@@ -110,8 +124,8 @@ const AdminUsers = () => {
                   <TableCell>{user.password}</TableCell>
                   <TableCell>
                     <span className="w-full h-full flex justify-center items-center gap-3">
-                      <Edit className="h-8 w-8 p-1 text-blue-500 cursor-pointer hover:bg-blue-500 hover:text-background rounded-md" />
-                      <TrashIcon className="h-8 w-8 p-1 text-red-500 cursor-pointer hover:bg-red-500 hover:text-background rounded-md" />
+                      <Edit className="h-8 w-8 p-1 text-black-500 cursor-pointer hover:bg-blue-500 hover:text-background rounded-md" />
+                      <TrashIcon className="h-8 w-8 p-1 text-black-500 cursor-pointer hover:bg-red-500 hover:text-background rounded-md" onClick={()=>handledelete(user.uid)} />
                     </span>
                   </TableCell>
                 </TableRow>
