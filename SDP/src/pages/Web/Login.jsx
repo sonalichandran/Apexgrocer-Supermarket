@@ -18,7 +18,7 @@ const Login = () => {
              
                 navigate('/admin/dashboard');
             } else if (userRole === "USER") {
-                navigate('/user/dashboard');
+                navigate('/fruits');
             } else {
                 console.log("Something went wrong");
             }

@@ -28,10 +28,16 @@ const AdminProduct = () => {
   const categoryref = useRef();
   const priceref = useRef();
 
+  const token = localStorage.getItem('token'); // Assuming token is stored in local storage
+
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get("http://localhost:8080/homeproduct/getallproduct");
+        const res = await axios.get("http://localhost:8080/homeproduct/getallproduct", {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
         setProducts(res.data);
       } catch (error) {
         console.error("Error fetching products:", error);
@@ -39,17 +45,22 @@ const AdminProduct = () => {
     };
 
     fetchProducts();
-  }, []);
+  }, [token]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newProduct = {
-      ProductName: productnameref.current.value,
-      productcategory: categoryref.current.value,
-      productcost: priceref.current.value,
+      productName: productnameref.current.value,  // Corrected reference
+      productcategory: categoryref.current.value,  // Corrected reference
+      productcost: priceref.current.value,  // Corrected reference
     };
     try {
-      const res = await axios.post("http://localhost:8080/homeproduct/addproduct", newProduct);
+      const res = await axios.post("http://localhost:8080/homeproduct/addproduct", newProduct, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+    
       setProducts([...products, res.data]);
       setOpen(false);
     } catch (error) {
@@ -71,7 +82,7 @@ const AdminProduct = () => {
             <Card key={product.ProductId} className="relative">
               <CardHeader>
                 <div className="flex flex-row">
-                  <CardTitle>{product.ProductName}</CardTitle>
+                  <CardTitle>{product.productName}</CardTitle>
                   <div className="flex flex-row pl-32 gap-2">
                     <Edit className='h-6 w-6 text-blue-500 cursor-pointer hover:text-blue-700' />
                     <TrashIcon className='h-6 w-6 text-red-500 cursor-pointer hover:text-red-700' />
@@ -110,7 +121,7 @@ const AdminProduct = () => {
             </div>
             <SheetFooter className='flex justify-between'>
               <Button className='bg-red-400 hover:bg-red-500' onClick={() => setOpen(false)}>Cancel</Button>
-              <Button>Save changes</Button>
+              <Button type="submit">Save changes</Button>
             </SheetFooter>
           </form>
         </SheetContent>

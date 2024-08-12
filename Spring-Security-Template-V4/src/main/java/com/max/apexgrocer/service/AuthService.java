@@ -101,7 +101,7 @@ public class AuthService {
         var user = User.builder()
                 .username("Admin")
                 .email("admin@gmail.com")
-                .password(passwordEncoder.encode("7654"))
+                .password(passwordEncoder.encode("Admin@123"))
                 .role(User.Role.ADMIN)
                 .build();
         userRepository.save(user);

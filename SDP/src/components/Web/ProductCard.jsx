@@ -1,7 +1,12 @@
+import { authService } from '@/services/auth';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ProductCard = ({ product }) => {
+  const navigate=useNavigate();
   const handleAddToCart = () => {
+    if(authService.isLoggedIn())
+    {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
     cart.push({
@@ -14,6 +19,10 @@ const ProductCard = ({ product }) => {
     });
 
     localStorage.setItem('cart', JSON.stringify(cart));
+  }
+  else{
+    navigate('/login');
+  }
   };
 
   return (

@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { authService } from '@/services/auth';
 
 const Cart = () => {
+  const defaultUsername = authService.getUserEmail(); // Fetch the username from authService
   const [showModal, setShowModal] = useState(false);
+  const [username, setUsername] = useState(defaultUsername); // Set the default username
+  const [addressType, setAddressType] = useState('Home'); // Default address type
   const [address, setAddress] = useState('');
   const [number, setNumber] = useState('');
 
@@ -35,6 +39,8 @@ const Cart = () => {
     }
 
     const orders = {
+      username, 
+      addressType, 
       address,
       number,
       cost: cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0),
@@ -60,7 +66,7 @@ const Cart = () => {
       .then(response => {
         console.log('Order placed successfully:', response.data);
         localStorage.removeItem('cart');
-        setShowModal(false); // Close modal after successful order placement
+        setShowModal(false); 
       })
       .catch(error => {
         if (error.response) {
@@ -102,30 +108,86 @@ const Cart = () => {
       </div>
       <div className="flex gap-4">
         <button onClick={() => setShowModal(true)} className="bg-slate-500 text-white py-2 px-4 rounded mt-4">Checkout</button>
-        <button onClick={() => localStorage.removeItem('cart')} className= "text-red-800 py-2 px-4 rounded mt-4">Clear Cart</button>
+        <button onClick={() => localStorage.removeItem('cart')} className="text-red-800 py-2 px-4 rounded mt-4">Clear Cart</button>
       </div>
 
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white p-6 rounded-lg shadow-lg">
+          <div className="bg-white p-6 rounded-lg shadow-lg w-96">
             <h2 className="text-xl font-bold mb-4">Enter Your Details</h2>
-            <input
-              type="text"
-              placeholder="Enter Address"
-              value={address}
-              onChange={(e) => setAddress(e.target.value)}
-              className="mb-2 p-2 border rounded w-full"
-            />
-            <input
-              type="text"
-              placeholder="Enter Number"
-              value={number}
-              onChange={(e) => setNumber(e.target.value)}
-              className="mb-2 p-2 border rounded w-full"
-            />
+            <div className="mb-4">
+              <label className="block mb-1 text-black" htmlFor="username">Username</label>
+              <input
+                id="username"
+                type="text"
+                placeholder="Username"
+                value={username} 
+                onChange={(e) => setUsername(e.target.value)}
+                className="p-2 border rounded w-full"
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block mb-1 text-black" htmlFor="number">Mobile Number</label>
+              <input
+                id="number"
+                type="text"
+                placeholder="Enter Number"
+                value={number}
+                onChange={(e) => setNumber(e.target.value)}
+                className="p-2 border rounded w-full"
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block mb-1 text-black">Address Type</label>
+              <div className="flex gap-4">
+                <label className="flex items-center">
+                  <input
+                    type="radio"
+                    name="addressType"
+                    value="Home"
+                    checked={addressType === 'Home'}
+                    onChange={(e) => setAddressType(e.target.value)}
+                    className="mr-2"
+                  />
+                  Home
+                </label>
+                <label className="flex items-center">
+                  <input
+                    type="radio"
+                    name="addressType"
+                    value="Office"
+                    checked={addressType === 'Office'}
+                    onChange={(e) => setAddressType(e.target.value)}
+                    className="mr-2"
+                  />
+                  Office
+                </label>
+                <label className="flex items-center">
+                  <input
+                    type="radio"
+                    name="addressType"
+                    value="Other"
+                    checked={addressType === 'Other'}
+                    onChange={(e) => setAddressType(e.target.value)}
+                    className="mr-2"
+                  />
+                  Other
+                </label>
+              </div>
+            </div>
+            <div className="mb-4">
+              <label className="block mb-1 text-black" htmlFor="address">Address</label>
+              <textarea
+                id="address"
+                placeholder="Enter Address"
+                value={address}
+                onChange={(e) => setAddress(e.target.value)}
+                className="p-2 border rounded w-full h-24 resize-y"
+              />
+            </div>
             <div className="flex gap-4 mt-4">
               <button onClick={handleCheckout} className="bg-slate-500 text-white py-2 px-4 rounded">Place Order</button>
-              <button onClick={() => setShowModal(false)} className=" text-black py-2 px-4 rounded">Cancel</button>
+              <button onClick={() => setShowModal(false)} className="text-black py-2 px-4 rounded">Cancel</button>
             </div>
           </div>
         </div>
