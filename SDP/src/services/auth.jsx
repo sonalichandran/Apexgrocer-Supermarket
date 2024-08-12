@@ -29,6 +29,15 @@ const getUserRole = () => {
     }
     return null;
 }
+// const getUserId=()=>{
+//     const token=getToken();
+//     if(token)
+//     {
+//         const payLoad=jwtDecode(token);
+//         return payLoad?.userId;
+
+//     }
+// }
 
 const isLoggedIn = () => {
     const token = getToken();
