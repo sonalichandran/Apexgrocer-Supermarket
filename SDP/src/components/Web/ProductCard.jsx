@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
       quantity: 1,
       price: product.productcost, 
       description: product.productcategory, 
-      image: product.image 
+      image: product.imagePath
     });
 
     localStorage.setItem('cart', JSON.stringify(cart));
@@ -32,7 +32,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <div className="w-80 h-96 rounded overflow-hidden shadow-lg bg-white dark:bg-gray-800">
-      <img className="w-full h-56 object-cover" src={product.image } alt={product.productName} />
+      <img className="w-full h-56 object-cover" src={product.imagePath } alt={product.productName} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-gray-800 dark:text-white">{product.productName}</div>
         <p className="text-gray-700 dark:text-gray-300 text-base">

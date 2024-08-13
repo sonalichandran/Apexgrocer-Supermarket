@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { ShoppingCart } from 'lucide-react';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -26,7 +27,9 @@ const Navbar = () => {
     if (token) {
       navigate('/user/cart'); 
     } else {
+      toast.error("Login to View cart");
       navigate('/login'); 
+
     }
   };
 
@@ -36,6 +39,17 @@ const Navbar = () => {
 
   return (
     <>
+     <Toaster 
+        position="top-right" 
+        toastOptions={{
+          success: {
+            duration: 5000, 
+          },
+          error: {
+            duration: 5000, 
+          },
+        }} 
+      />
       <div className="absolute top-0 left-0 w-full h-[9vh] flex flex-row justify-start pl-12 items-center bg-black border-grey shadow-lg shadow-gray-400">
         <div className="w-1/4 h-full font-bold flex justify-start items-center text-4xl bg-black text-white">
           <NavLink to="/">  

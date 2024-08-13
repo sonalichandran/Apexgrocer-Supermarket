@@ -76,7 +76,7 @@ const AdminProduct = () => {
 
     try {
       if (editingProduct) {
-        // Update existing product
+     
         const res = await axios.put(`http://localhost:8080/homeproduct/updateproduct/${editingProduct.productId}`, productData, {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -84,7 +84,7 @@ const AdminProduct = () => {
         });
         setProducts(products.map((product) => (product.productId === editingProduct.productId ? res.data : product)));
       } else {
-        // Add new product
+   
         const res = await axios.post("http://localhost:8080/homeproduct/addproduct", productData, {
           headers: {
             Authorization: `Bearer ${token}`,

@@ -22,7 +22,7 @@ const Register = () => {
     if(res.data === "User registered successfully.") {
       setTimeout(() => {
         navigate('/login');
-      }, 5000);
+      }, 3000);
       toast.success("Registration Successful");
     } else {
       toast.error("Registration Failed");

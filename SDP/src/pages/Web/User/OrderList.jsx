@@ -1,37 +1,75 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios'
+import axios from 'axios';
 import { authService } from '@/services/auth';
-
-
-
 
 const OrderList = () => {
   const [orders, setOrders] = useState([]);
+  const [error, setError] = useState(null);
   const userId = authService.getUserId(); 
 
   useEffect(() => {
     if (userId) {
-    
       axios.get(`http://localhost:8080/order/getall/${userId}`)
         .then(response => {
           setOrders(response.data);
+          setError(null); 
         })
         .catch(error => {
+          setError('Error fetching orders.');
           console.error('Error fetching orders:', error);
         });
     } else {
-      console.error('User ID not found in token.');
+      setError('User ID not found in token.');
     }
   }, [userId]);
 
-  const handleCancelOrder = (orderId) => {
-    axios.delete(`http://localhost:8080/order/deletebyId/${orderId}`)
+  const handleCancelOrder = (orderId, productId) => {
+    axios.delete(`http://localhost:8080/product/deleteById/${productId}`)
       .then(() => {
-        setOrders(prevOrders => prevOrders.filter(order => order.orderId !== orderId));
+        setOrders(prevOrders => {
+          return prevOrders
+            .map(order => {
+              if (order.orderId === orderId) {
+                const updatedProducts = order.product.filter(product => product.productId !== productId);
+
+                return updatedProducts.length > 0
+                  ? { ...order, product: updatedProducts }
+                  : null; 
+              }
+              return order;
+            })
+            .filter(order => order !== null); 
+        });
       })
       .catch(error => {
-        console.error('Error cancelling order:', error);
+        setError('Error cancelling product.');
+        console.error('Error cancelling product:', error);
       });
+  };
+
+  const handleInvoice = (orderId) => {
+    axios.get(`http://localhost:8080/order/download/${orderId}`, {
+      responseType: 'blob'
+    })
+    .then(response => {
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'invoice.pdf');
+      document.body.appendChild(link);
+      link.click();
+    })
+    .catch(error => {
+      setError('Error downloading invoice.');
+      console.error('Error downloading invoice:', error);
+    });
+  };
+
+  const calculateTotalCost = () => {
+    return orders.reduce((acc, order) => 
+      acc + order.product.reduce((prodAcc, product) => 
+        prodAcc + (product.productcost || 0), 0), 0
+    );
   };
 
   return (
@@ -39,9 +77,13 @@ const OrderList = () => {
       <div className="flex flex-row left-10 pl-20 gap-96 pt-10">
         <h1 className="font-bold text-2xl text-gray-800">Orders</h1>
         <div className="pl-52">
-          <button className="left-96 flex border border-black rounded-md p-2">Track Order</button>
+          <button className="flex border border-black rounded-md p-2">Track Order</button>
         </div>
       </div>
+
+      {error && (
+        <div className="text-red-500 text-center mt-4">{error}</div>
+      )}
 
       <div className="pl-20 pt-5 flex flex-col gap-6">
         {orders.map((order, index) => (
@@ -58,22 +100,25 @@ const OrderList = () => {
                   <p className="font-medium text-gray-600">Category: {product.productcategory}</p>
                   <p className="font-medium text-gray-600">Cost: Rs.{product.productcost}</p>
                 </div>
+                <button 
+                  onClick={() => handleCancelOrder(order.orderId, product.productId)} 
+                  className="text-red-500 mt-2 ml-auto"
+                >
+                  Cancel Product
+                </button>
               </div>
             ))}
-
-          
+            
             <button 
-              onClick={() => handleCancelOrder(order.orderId)} 
-              className="text-red-500 mt-2"
+              onClick={() => handleInvoice(order.orderId)} 
+              className="text-blue-500 mt-2"
             >
-              Cancel Order
+              Get Invoice
             </button>
           </div>
         ))}
-
         <div className="flex font-bold text-lg text-gray-800 mt-4 flex-row gap-4">
-          Total Cost: Rs.{orders.reduce((acc, order) => acc + order.cost, 0)}
-          <button className="font-medium text-red-700">Get Invoice</button>
+          Total Cost: Rs.{calculateTotalCost()}
         </div>
       </div>
     </>

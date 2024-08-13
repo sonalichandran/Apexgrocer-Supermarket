@@ -1,52 +1,47 @@
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import ProductCard from '/src/components/Web/ProductCard';
-import React from 'react';
 
-const products = [
-  {
-    id: 1,
-    productName: 'Banana',
-    productcategory: 'Fresh and ripe bananas.',
-    productcost: 150,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/10000027_31-fresho-banana-robusta.jpg?tr=w-1920,q=80' 
-  },
-  {
-    id: 2,
-    productName: 'Orange',
-    productcategory: 'Juicy and tangy oranges.',
-    productcost: 200,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/20000909_19-fresho-orange-imported.jpg?tr=w-1920,q=80' 
-  },
-  {
-    id: 3,
-    productName: 'Mango',
-    productcategory: 'Sweet and succulent mangoes.',
-    productcost: 300,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/30001057_6-fresho-langra-mango.jpg?tr=w-1920,q=80' 
-  },
-  {
-    id: 4,
-    productName: 'Pineapple',
-    productcategory: 'Tropical and tangy pineapples.',
-    productcost: 180,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/10000156_27-fresho-pineapple.jpg?tr=w-1920,q=80' 
-  },
-  {
-    id: 5,
-    productName: 'Blueberry',
-    productcategory: 'Sweet and juicy Blueberry.',
-    productcost: 220,
-    image: 'https://www.bigbasket.com/media/uploads/p/m/30009286_10-fresho-blueberry.jpg?tr=w-1920,q=80' 
-  }
-];
 
+const getAuthToken = () => {
+  
+  return localStorage.getItem('authToken');
+};
 
 const FruitList = () => {
+  const [products, setProducts] = useState([]);
+ 
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const token = getAuthToken();
+        const headers = {
+          'Authorization': `Bearer ${token}`
+        };
+        const response = await axios.get("http://localhost:8080/homeproduct/getbycategory/Fruits");
+        console.log(response.data);
+        setProducts(response.data);
+      } catch (error) {
+        setError(error);
+      } 
+    };
+
+    fetchProducts();
+  }, []);
+
+  
   return (
     <div className="container mx-auto pt-48 py-14">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
+        {products.length > 0 ? (
+          products.map((product) => (
+            <ProductCard key={product.productId} product={product} />
+          ))
+        ) : (
+          <div className="text-center py-10">No products available.</div>
+        )}
       </div>
     </div>
   );

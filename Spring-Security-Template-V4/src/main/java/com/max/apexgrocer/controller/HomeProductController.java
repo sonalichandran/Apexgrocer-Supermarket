@@ -2,7 +2,10 @@ package com.max.apexgrocer.controller;
 
 import java.util.List;
 import java.util.Optional;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,6 +27,7 @@ import com.max.apexgrocer.repo.HomeProductRepo;
 public class HomeProductController {
     @Autowired
     private HomeProductRepo hr;
+    private static final Logger logger = LoggerFactory.getLogger(HomeProductController.class);
     @PostMapping("/addproduct")
     public HomeProduct addProduct(@RequestBody HomeProduct hp)
     {
@@ -53,6 +57,11 @@ public class HomeProductController {
         } else {
             throw new RuntimeException("Product not found with id " + id);
         }
+    }
+    @GetMapping("/getbycategory/{productcategory}")
+    public List<HomeProduct> getbycategory(@PathVariable String productcategory)
+    {
+        return hr.findByProductcategory(productcategory);
     }
     
     

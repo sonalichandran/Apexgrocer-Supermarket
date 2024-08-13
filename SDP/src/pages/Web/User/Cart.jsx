@@ -3,10 +3,10 @@ import axios from 'axios';
 import { authService } from '@/services/auth';
 
 const Cart = () => {
-  const defaultUsername = authService.getUserEmail(); // Fetch the username from authService
+  const defaultUsername = authService.getUserEmail(); 
   const [showModal, setShowModal] = useState(false);
-  const [username, setUsername] = useState(defaultUsername); // Set the default username
-  const [addressType, setAddressType] = useState('Home'); // Default address type
+  const [username, setUsername] = useState(defaultUsername); 
+  const [addressType, setAddressType] = useState('Home'); 
   const [address, setAddress] = useState('');
   const [number, setNumber] = useState('');
 
@@ -44,7 +44,7 @@ const Cart = () => {
       address,
       number,
       cost: cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0),
-      status: 'Pending',
+      status: 'Order Placed',
       product: cartItems.map(item => ({
         productName: item.name,
         productcategory: item.description,

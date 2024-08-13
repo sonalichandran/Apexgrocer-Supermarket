@@ -1,6 +1,8 @@
 package com.max.apexgrocer.controller;
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,12 +13,15 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.itextpdf.text.DocumentException;
 import com.max.apexgrocer.config.JwtToken;
 import com.max.apexgrocer.model.Orders;
 import com.max.apexgrocer.repo.OrderRepository;
 import com.max.apexgrocer.service.OrderService;
 
+import jakarta.servlet.http.HttpServletResponse;
 
+import java.io.IOException;
 import java.util.*;
 
 @RestController
@@ -71,6 +76,22 @@ public class OrderController {
     public List<Orders> getbyUserId(@PathVariable Long userId)
     {
         return os.getOrdersByUserId(userId);
+    }
+    @GetMapping("/download/{orderId}")
+    public ResponseEntity<byte[]> downloadInvoice(@PathVariable long orderId, HttpServletResponse response) {
+        try {
+            byte[] pdfContents = os.generateInvoice(orderId);
+
+            HttpHeaders headers = new HttpHeaders();
+            headers.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=invoice.pdf");
+            headers.add(HttpHeaders.CONTENT_TYPE, "application/pdf");
+            headers.add(HttpHeaders.CONTENT_LENGTH, String.valueOf(pdfContents.length));
+
+            return new ResponseEntity<>(pdfContents, headers, HttpStatus.OK);
+        } catch (IOException | DocumentException e) {
+            e.printStackTrace();
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
     
     

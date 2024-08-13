@@ -49,7 +49,8 @@ public class SecurityConfig {
                         "/v3/api-docs/**",
                         "/order/**",
                         "/product/**",
-                        "/request/**"
+                        "/request/**",
+                        "/homeproduct/**"
         };
 
         @Bean
