@@ -106,7 +106,7 @@ useEffect(() => {
           
           </div>
         </form>
-          <NavLink to="/adminlogin" className="pl-24">Admin Login</NavLink>
+          {/* <NavLink to="/adminlogin" className="pl-24">Admin Login</NavLink> */}
       </div>
       <img src="https://img.freepik.com/free-psd/3d-illustration-supermarket_23-2150942240.jpg" className="pl-48 h-80" alt></img>
     </div>

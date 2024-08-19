@@ -11,3 +11,6 @@ public interface JwtRepo extends JpaRepository<Token, String> {
 
     Optional<Token> findByToken(String token);
 }
+
+
+ 

@@ -22,11 +22,7 @@ const UserLeftbar = () => {
             link: '/user/cart',
             icon: ShoppingCart
         },
-        {
-            title: 'Favourites',
-            link: '/user/favourite',
-            icon: Heart
-        }
+       
     ]
     const username=authService.getUserEmail();
     return (
