@@ -8,11 +8,11 @@ const getAuthToken = () => {
   return localStorage.getItem('authToken');
 };
 
-const FruitList = () => {
+const FruitList = ({searchTerm}) => {
   const [products, setProducts] = useState([]);
  
   const [error, setError] = useState(null);
-
+ console.log(searchTerm);
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -23,10 +23,12 @@ const FruitList = () => {
         const response = await axios.get("http://localhost:8080/homeproduct/getbycategory/Fruits");
         console.log(response.data);
         setProducts(response.data);
+        
       } catch (error) {
         setError(error);
       } 
     };
+    
 
     fetchProducts();
   }, []);
